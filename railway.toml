@@ -1,8 +1,0 @@
-[build]
-builder = "DOCKERFILE"
-dockerfilePath = "Dockerfile"
-
-[deploy]
-healthcheckPath = "/api/ping"
-healthcheckTimeout = 60
-restartPolicyType = "ON_FAILURE"
