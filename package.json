@@ -1,0 +1,13 @@
+{
+  "name": "wp-panel",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
